@@ -1,0 +1,697 @@
+/* =========================================================
+   ABHISHEK CHAUDHARY
+   LEGAL STUDENT LIBRARY
+
+   LEGAL / INFORMATION PAGES
+========================================================= */
+
+
+/* =========================================================
+   PAGE HERO
+========================================================= */
+
+.legal-hero {
+
+    padding:
+        55px 0 45px;
+
+    background:
+        var(--surface);
+
+    border-bottom:
+        1px solid var(--border);
+
+}
+
+
+.legal-hero .breadcrumb {
+
+    margin-bottom:
+        28px;
+
+}
+
+
+.legal-hero-content {
+
+    max-width:
+        760px;
+
+}
+
+
+.legal-hero-content h1 {
+
+    margin:
+        10px 0 15px;
+
+    color:
+        var(--navy-900);
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size:
+        clamp(36px, 5vw, 58px);
+
+    line-height:
+        1.05;
+
+}
+
+
+.legal-hero-content h1 span {
+
+    color:
+        var(--gold);
+
+}
+
+
+.legal-hero-content p {
+
+    max-width:
+        680px;
+
+    margin:
+        0;
+
+    color:
+        var(--text-light);
+
+    font-size:
+        14px;
+
+    line-height:
+        1.8;
+
+}
+
+
+/* =========================================================
+   LEGAL CONTENT
+========================================================= */
+
+.legal-content {
+
+    padding:
+        65px 0 85px;
+
+}
+
+
+.legal-content-inner {
+
+    max-width:
+        900px;
+
+    margin:
+        0 auto;
+
+}
+
+
+/* =========================================================
+   CONTENT SECTIONS
+========================================================= */
+
+.legal-section {
+
+    padding:
+        0 0 38px;
+
+    margin-bottom:
+        38px;
+
+    border-bottom:
+        1px solid var(--border);
+
+}
+
+
+.legal-section:last-child {
+
+    margin-bottom:
+        0;
+
+    border-bottom:
+        0;
+
+}
+
+
+.legal-section h2 {
+
+    margin:
+        0 0 14px;
+
+    color:
+        var(--navy-900);
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size:
+        25px;
+
+    line-height:
+        1.25;
+
+}
+
+
+.legal-section h3 {
+
+    margin:
+        25px 0 10px;
+
+    color:
+        var(--navy-900);
+
+    font-size:
+        15px;
+
+    font-weight:
+        800;
+
+}
+
+
+.legal-section p {
+
+    margin:
+        0 0 14px;
+
+    color:
+        var(--text-light);
+
+    font-size:
+        10px;
+
+    line-height:
+        1.85;
+
+}
+
+
+.legal-section p:last-child {
+
+    margin-bottom:
+        0;
+
+}
+
+
+/* =========================================================
+   LISTS
+========================================================= */
+
+.legal-section ul {
+
+    margin:
+        14px 0 0;
+
+    padding-left:
+        20px;
+
+}
+
+
+.legal-section li {
+
+    margin-bottom:
+        9px;
+
+    color:
+        var(--text-light);
+
+    font-size:
+        10px;
+
+    line-height:
+        1.75;
+
+}
+
+
+.legal-section li:last-child {
+
+    margin-bottom:
+        0;
+
+}
+
+
+/* =========================================================
+   HIGHLIGHT BOX
+========================================================= */
+
+.legal-notice {
+
+    margin:
+        25px 0;
+
+    padding:
+        20px 22px;
+
+    background:
+        var(--surface);
+
+    border-left:
+        3px solid var(--gold);
+
+    border-radius:
+        4px;
+
+}
+
+
+.legal-notice strong {
+
+    display:
+        block;
+
+    margin-bottom:
+        7px;
+
+    color:
+        var(--navy-900);
+
+    font-size:
+        10px;
+
+    font-weight:
+        800;
+
+}
+
+
+.legal-notice p {
+
+    margin:
+        0;
+
+}
+
+
+/* =========================================================
+   CONTACT INFORMATION
+========================================================= */
+
+.contact-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap:
+        15px;
+
+    margin-bottom:
+        40px;
+
+}
+
+
+.contact-card {
+
+    padding:
+        25px;
+
+    background:
+        var(--white);
+
+    border:
+        1px solid var(--border);
+
+    border-radius:
+        var(--radius-medium);
+
+    transition:
+        transform var(--transition),
+        box-shadow var(--transition),
+        border-color var(--transition);
+
+}
+
+
+.contact-card:hover {
+
+    transform:
+        translateY(-3px);
+
+    border-color:
+        var(--border-dark);
+
+    box-shadow:
+        var(--shadow-medium);
+
+}
+
+
+.contact-card-label {
+
+    display:
+        block;
+
+    margin-bottom:
+        8px;
+
+    color:
+        var(--gold);
+
+    font-size:
+        7px;
+
+    font-weight:
+        800;
+
+    letter-spacing:
+        .12em;
+
+    text-transform:
+        uppercase;
+
+}
+
+
+.contact-card h3 {
+
+    margin:
+        0 0 8px;
+
+    color:
+        var(--navy-900);
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size:
+        19px;
+
+}
+
+
+.contact-card p {
+
+    margin:
+        0;
+
+    color:
+        var(--text-light);
+
+    font-size:
+        9px;
+
+    line-height:
+        1.7;
+
+}
+
+
+.contact-card a {
+
+    color:
+        var(--navy-900);
+
+    font-weight:
+        700;
+
+    text-decoration:
+        none;
+
+}
+
+
+.contact-card a:hover {
+
+    color:
+        var(--gold);
+
+}
+
+
+/* =========================================================
+   CONTACT FORM
+========================================================= */
+
+.contact-form {
+
+    padding:
+        30px;
+
+    background:
+        var(--surface);
+
+    border:
+        1px solid var(--border);
+
+    border-radius:
+        var(--radius-medium);
+
+}
+
+
+.contact-form h2 {
+
+    margin:
+        0 0 8px;
+
+    color:
+        var(--navy-900);
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size:
+        26px;
+
+}
+
+
+.contact-form > p {
+
+    margin:
+        0 0 25px;
+
+    color:
+        var(--text-light);
+
+    font-size:
+        9px;
+
+    line-height:
+        1.7;
+
+}
+
+
+.form-group {
+
+    margin-bottom:
+        17px;
+
+}
+
+
+.form-group label {
+
+    display:
+        block;
+
+    margin-bottom:
+        7px;
+
+    color:
+        var(--navy-900);
+
+    font-size:
+        8px;
+
+    font-weight:
+        800;
+
+}
+
+
+.form-group input,
+.form-group textarea {
+
+    width:
+        100%;
+
+    padding:
+        12px 13px;
+
+    color:
+        var(--navy-900);
+
+    background:
+        var(--white);
+
+    border:
+        1px solid var(--border);
+
+    border-radius:
+        6px;
+
+    font-family:
+        inherit;
+
+    font-size:
+        10px;
+
+    outline:
+        none;
+
+    transition:
+        border-color var(--transition-fast),
+        box-shadow var(--transition-fast);
+
+}
+
+
+.form-group textarea {
+
+    min-height:
+        140px;
+
+    resize:
+        vertical;
+
+}
+
+
+.form-group input:focus,
+.form-group textarea:focus {
+
+    border-color:
+        var(--gold);
+
+    box-shadow:
+        0 0 0 3px rgba(197, 161, 91, .10);
+
+}
+
+
+.contact-submit {
+
+    display:
+        inline-flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    min-height:
+        42px;
+
+    padding:
+        10px 20px;
+
+    color:
+        var(--white);
+
+    background:
+        var(--navy-900);
+
+    border:
+        1px solid var(--navy-900);
+
+    border-radius:
+        6px;
+
+    font-size:
+        8px;
+
+    font-weight:
+        800;
+
+    cursor:
+        pointer;
+
+    transition:
+        background var(--transition-fast),
+        transform var(--transition-fast);
+
+}
+
+
+.contact-submit:hover {
+
+    background:
+        var(--navy-700);
+
+    transform:
+        translateY(-1px);
+
+}
+
+
+/* =========================================================
+   LAST UPDATED
+========================================================= */
+
+.legal-updated {
+
+    margin-top:
+        35px;
+
+    color:
+        var(--text-muted);
+
+    font-size:
+        8px;
+
+    font-style:
+        italic;
+
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 700px) {
+
+    .legal-content {
+
+        padding:
+            45px 0 60px;
+
+    }
+
+
+    .contact-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .contact-form {
+
+        padding:
+            22px;
+
+    }
+
+
+    .legal-section h2 {
+
+        font-size:
+            22px;
+
+    }
+
+}
