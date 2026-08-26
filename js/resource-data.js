@@ -192,7 +192,61 @@ const notesData = {
                     "LLB Semester 5 Syllabus.",
                 file:
                     "resources/notes/llb/sem5/syllabus-sem5.pdf"
-            }
+            },
+			
+			{
+				title: "C.P.C (Civil Procedure Code & Limitation Act)",
+				subject: "C.P.C (Civil Procedure Code & Limitation Act)",
+				description:
+					"C.P.C (Civil Procedure Code & Limitation Act).",
+				file:
+					"resources/notes/llb/sem5/cpc-limitation-act.pdf"
+			},
+
+			{
+				title: "Bharatiya Sakshya Adhiniyam (BSA)",
+				subject: "Bharatiya Sakshya Adhiniyam (BSA)",
+				description:
+					"Bharatiya Sakshya Adhiniyam (BSA).",
+				file:
+					"resources/notes/llb/sem5/bharatiya-sakshya-adhiniyam-bsa.pdf"
+			},
+
+			{
+				title: "Information Technology Law",
+				subject: "Information Technology Law",
+				description:
+					"Information Technology Law.",
+				file:
+					"resources/notes/llb/sem5/information-technology-law.pdf"
+			},
+
+			{
+				title: "Alternate Dispute Resolution",
+				subject: "Alternate Dispute Resolution",
+				description:
+					"Alternate Dispute Resolution.",
+				file:
+					"resources/notes/llb/sem5/alternate-dispute-resolution.pdf"
+			},
+
+			{
+				title: "Intellectual Property Rights - I",
+				subject: "Intellectual Property Rights - I",
+				description:
+					"Intellectual Property Rights - I.",
+				file:
+					"resources/notes/llb/sem5/intellectual-property-rights-1.pdf"
+			},
+
+			{
+				title: "Private International Law",
+				subject: "Private International Law",
+				description:
+					"Private International Law.",
+				file:
+					"resources/notes/llb/sem5/private-international-law.pdf"
+			}
 			
 		],
 
@@ -237,25 +291,242 @@ const pyqsData = {
 
     1: [
 
-        {
-            title: "Constitutional Law - 2025",
+		{
+			title: "LLB Semester 1 PYQ - 2022-23",
+			subject: "LLB Semester 1 PYQ",
+			description:
+				"University of Allahabad LLB Semester 1 Previous Year Question Papers 2022-23.",
+			file:
+				"resources/pyqs/llb/sem1/llb-sem1-pyq-2022-23.pdf"
+		},
 
-            subject: "Constitutional Law",
+		{
+			title: "LLB Semester 1 PYQ - 2023-24",
+			subject: "LLB Semester 1 PYQ",
+			description:
+				"University of Allahabad LLB Semester 1 Previous Year Question Papers 2023-24.",
+			file:
+				"resources/pyqs/llb/sem1/llb-sem1-pyq-2023-24.pdf"
+		},
 
-            description:
-                "LLB Semester 1 previous year question paper.",
-
-            file:
-                "resources/pyqs/llb/sem1/constitutional-law-2025.pdf"
-        }
+		{
+			title: "LLB Semester 1 PYQ - 2024-25",
+			subject: "LLB Semester 1 PYQ",
+			description:
+				"University of Allahabad LLB Semester 1 Previous Year Question Papers 2024-25.",
+			file:
+				"resources/pyqs/llb/sem1/llb-sem1-pyq-2024-25.pdf"
+		},
+		
+		{
+			title: "LLB Semester 1 PYQ - 2025-26",
+			subject: "LLB Semester 1 PYQ",
+			description:
+				"University of Allahabad LLB Semester 1 Previous Year Question Papers 2025-26.",
+			file:
+				"resources/pyqs/llb/sem1/llb-sem1-pyq-2025-26.pdf"
+		}
 
     ],
 
-    2: [],
-    3: [],
-    4: [],
-    5: [],
-    6: []
+    2: [
+
+		{
+			title: "LLB Semester 2 PYQ - 2022-23",
+			subject: "LLB Semester 2 PYQ",
+			description:
+				"University of Allahabad LLB Semester 2 Previous Year Question Papers 2022-23.",
+			file:
+				"resources/pyqs/llb/sem2/llb-sem2-pyq-2022-23.pdf"
+		},
+
+		{
+			title: "LLB Semester 2 PYQ - 2023-24",
+			subject: "LLB Semester 2 PYQ",
+			description:
+				"University of Allahabad LLB Semester 2 Previous Year Question Papers 2023-24.",
+			file:
+				"resources/pyqs/llb/sem2/llb-sem2-pyq-2023-24.pdf"
+		},
+
+		{
+			title: "LLB Semester 2 PYQ - 2024-25",
+			subject: "LLB Semester 2 PYQ",
+			description:
+				"University of Allahabad LLB Semester 2 Previous Year Question Papers 2024-25.",
+			file:
+				"resources/pyqs/llb/sem2/llb-sem2-pyq-2024-25.pdf"
+		},
+		
+		{
+			title: "LLB Semester 2 PYQ - 2025-26",
+			subject: "LLB Semester 2 PYQ",
+			description:
+				"University of Allahabad LLB Semester 2 Previous Year Question Papers 2025-26.",
+			file:
+				"resources/pyqs/llb/sem2/llb-sem2-pyq-2025-26.pdf"
+		}
+
+    ],
+	
+    3: [
+
+		{
+			title: "LLB Semester 3 PYQ - 2022-23",
+			subject: "LLB Semester 3 PYQ",
+			description:
+				"University of Allahabad LLB Semester 3 Previous Year Question Papers 2022-23.",
+			file:
+				"resources/pyqs/llb/sem3/llb-sem3-pyq-2022-23.pdf"
+		},
+
+		{
+			title: "LLB Semester 3 PYQ - 2023-24",
+			subject: "LLB Semester 3 PYQ",
+			description:
+				"University of Allahabad LLB Semester 3 Previous Year Question Papers 2023-24.",
+			file:
+				"resources/pyqs/llb/sem3/llb-sem3-pyq-2023-24.pdf"
+		},
+
+		{
+			title: "LLB Semester 3 PYQ - 2024-25",
+			subject: "LLB Semester 3 PYQ",
+			description:
+				"University of Allahabad LLB Semester 3 Previous Year Question Papers 2024-25.",
+			file:
+				"resources/pyqs/llb/sem3/llb-sem3-pyq-2024-25.pdf"
+		},
+		
+		{
+			title: "LLB Semester 3 PYQ - 2025-26",
+			subject: "LLB Semester 3 PYQ",
+			description:
+				"University of Allahabad LLB Semester 3 Previous Year Question Papers 2025-26.",
+			file:
+				"resources/pyqs/llb/sem3/llb-sem3-pyq-2025-26.pdf"
+		}
+
+    ],
+	
+    4: [
+
+		{
+			title: "LLB Semester 4 PYQ - 2022-23",
+			subject: "LLB Semester 4 PYQ",
+			description:
+				"University of Allahabad LLB Semester 4 Previous Year Question Papers 2022-23.",
+			file:
+				"resources/pyqs/llb/sem4/llb-sem4-pyq-2022-23.pdf"
+		},
+
+		{
+			title: "LLB Semester 4 PYQ - 2023-24",
+			subject: "LLB Semester 4 PYQ",
+			description:
+				"University of Allahabad LLB Semester 4 Previous Year Question Papers 2023-24.",
+			file:
+				"resources/pyqs/llb/sem4/llb-sem4-pyq-2023-24.pdf"
+		},
+
+		{
+			title: "LLB Semester 4 PYQ - 2024-25",
+			subject: "LLB Semester 4 PYQ",
+			description:
+				"University of Allahabad LLB Semester 4 Previous Year Question Papers 2024-25.",
+			file:
+				"resources/pyqs/llb/sem4/llb-sem4-pyq-2024-25.pdf"
+		},
+		
+		{
+			title: "LLB Semester 4 PYQ - 2025-26",
+			subject: "LLB Semester 4 PYQ",
+			description:
+				"University of Allahabad LLB Semester 4 Previous Year Question Papers 2025-26.",
+			file:
+				"resources/pyqs/llb/sem4/llb-sem4-pyq-2025-26.pdf"
+		}
+
+    ],
+	
+    5: [
+
+		{
+			title: "LLB Semester 5 PYQ - 2022-23",
+			subject: "LLB Semester 5 PYQ",
+			description:
+				"University of Allahabad LLB Semester 5 Previous Year Question Papers 2022-23.",
+			file:
+				"resources/pyqs/llb/sem5/llb-sem5-pyq-2022-23.pdf"
+		},
+
+		{
+			title: "LLB Semester 5 PYQ - 2023-24",
+			subject: "LLB Semester 5 PYQ",
+			description:
+				"University of Allahabad LLB Semester 5 Previous Year Question Papers 2023-24.",
+			file:
+				"resources/pyqs/llb/sem5/llb-sem5-pyq-2023-24.pdf"
+		},
+
+		{
+			title: "LLB Semester 5 PYQ - 2024-25",
+			subject: "LLB Semester 5 PYQ",
+			description:
+				"University of Allahabad LLB Semester 5 Previous Year Question Papers 2024-25.",
+			file:
+				"resources/pyqs/llb/sem5/llb-sem5-pyq-2024-25.pdf"
+		},
+		
+		{
+			title: "LLB Semester 5 PYQ - 2025-26",
+			subject: "LLB Semester 5 PYQ",
+			description:
+				"University of Allahabad LLB Semester 5 Previous Year Question Papers 2025-26.",
+			file:
+				"resources/pyqs/llb/sem5/llb-sem5-pyq-2025-26.pdf"
+		}
+
+    ],
+    6: [
+
+		{
+			title: "LLB Semester 6 PYQ - 2022-23",
+			subject: "LLB Semester 6 PYQ",
+			description:
+				"University of Allahabad LLB Semester 6 Previous Year Question Papers 2022-23.",
+			file:
+				"resources/pyqs/llb/sem6/llb-sem6-pyq-2022-23.pdf"
+		},
+
+		{
+			title: "LLB Semester 6 PYQ - 2023-24",
+			subject: "LLB Semester 6 PYQ",
+			description:
+				"University of Allahabad LLB Semester 6 Previous Year Question Papers 2023-24.",
+			file:
+				"resources/pyqs/llb/sem6/llb-sem6-pyq-2023-24.pdf"
+		},
+
+		{
+			title: "LLB Semester 6 PYQ - 2024-25",
+			subject: "LLB Semester 6 PYQ",
+			description:
+				"University of Allahabad LLB Semester 6 Previous Year Question Papers 2024-25.",
+			file:
+				"resources/pyqs/llb/sem6/llb-sem6-pyq-2024-25.pdf"
+		},
+		
+		{
+			title: "LLB Semester 6 PYQ - 2025-26",
+			subject: "LLB Semester 6 PYQ",
+			description:
+				"University of Allahabad LLB Semester 6 Previous Year Question Papers 2025-26.",
+			file:
+				"resources/pyqs/llb/sem6/llb-sem6-pyq-2025-26.pdf"
+		}
+
+    ]
 
 },
 
